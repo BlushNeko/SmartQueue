@@ -5,17 +5,41 @@
 
   <style>
     body {
-      font-family: Arial;
+      margin: 0;
+      font-family: Arial, sans-serif;
       background: #f5f5f5;
-      padding: 40px;
       text-align: center;
     }
 
+    /* Banner */
+    .banner {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      padding: 40px 20px;
+      color: white;
+    }
+
+    .banner img {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+
+    .banner h1 {
+      margin: 10px 0 5px;
+      font-size: 38px;
+    }
+
+    .banner p {
+      margin: 0;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    /* Cards */
     .box {
       background: white;
-      padding: 20px;
-      margin: 20px auto;
       width: 300px;
+      padding: 20px;
+      margin: 30px auto;
       border-radius: 10px;
       box-shadow: 0 0 10px #ccc;
     }
@@ -30,13 +54,16 @@
       cursor: pointer;
     }
   </style>
-
 </head>
 
 <body>
 
-  <h1>QueueEase</h1>
-  <p>Digital Queue Management System</p>
+  <!-- Banner with logo -->
+  <div class="banner">
+    <img src="logo.png" alt="QueueEase Logo">
+    <h1>QueueEase</h1>
+    <p>Digital Queue Management System</p>
+  </div>
 
   <div class="box">
     <h3>User Panel</h3>
@@ -51,10 +78,6 @@
     <p>Current Token: <b>#8</b></p>
     <button>Call Next</button>
   </div>
-
-  <p style="margin-top:40px;">
-    Prototype built for Hackathon
-  </p>
 
 </body>
 </html>
