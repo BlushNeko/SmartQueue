@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5c6bc0;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+header .logo i {
+  margin-right: 10px;
+}
+
+main {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+h1 {
+  color: #3f51b5;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* Queue Grid */
+.queue-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Cards */
+.queue-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.queue-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.queue-card i {
+  color: #5c6bc0;
+  margin-bottom: 10px;
+}
+
+.queue-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.queue-card p {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.queue-card button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff4081;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.queue-card button:hover {
+  background: #e91e63;
+}
