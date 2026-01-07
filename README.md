@@ -1,1 +1,1 @@
-# SmartQueue
+# QueueEase
