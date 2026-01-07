@@ -1,42 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Queue Selection</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Queue Management</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>Smart Queue</h1>
-    <p class="subtitle">Select a Service to Join the Queue</p>
+  <header>
+    <div class="logo">
+      <i class="fas fa-users"></i> Smart Queue
+    </div>
+  </header>
+
+  <main>
+    <h1>Welcome to Smart Queue</h1>
+    <p class="subtitle">Select a service to join the queue</p>
 
     <div class="queue-grid">
       <div class="queue-card">
-        <h3>Hospital OPD</h3>
+        <i class="fas fa-user-md fa-2x"></i>
+        <h3>Doctor Consultation</h3>
         <p>Estimated Wait: 25 mins</p>
         <button>Join Queue</button>
       </div>
 
       <div class="queue-card">
-        <h3>College Admin Office</h3>
+        <i class="fas fa-vials fa-2x"></i>
+        <h3>Lab Tests</h3>
         <p>Estimated Wait: 15 mins</p>
         <button>Join Queue</button>
       </div>
 
       <div class="queue-card">
+        <i class="fas fa-university fa-2x"></i>
+        <h3>College Admin</h3>
+        <p>Estimated Wait: 20 mins</p>
+        <button>Join Queue</button>
+      </div>
+
+      <div class="queue-card">
+        <i class="fas fa-piggy-bank fa-2x"></i>
         <h3>Bank Counter</h3>
         <p>Estimated Wait: 30 mins</p>
         <button>Join Queue</button>
       </div>
 
       <div class="queue-card">
-        <h3>Public Service Desk</h3>
+        <i class="fas fa-clipboard-list fa-2x"></i>
+        <h3>Public Service</h3>
         <p>Estimated Wait: 20 mins</p>
         <button>Join Queue</button>
       </div>
+
+      <div class="queue-card">
+        <i class="fas fa-info-circle fa-2x"></i>
+        <h3>Information Desk</h3>
+        <p>Estimated Wait: 10 mins</p>
+        <button>Join Queue</button>
+      </div>
     </div>
-  </div>
+  </main>
 
 </body>
 </html>
+
